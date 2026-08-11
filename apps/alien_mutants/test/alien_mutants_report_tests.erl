@@ -3,7 +3,7 @@
 -include_lib("eunit/include/eunit.hrl").
 
 report_lists_surviving_mutant_at_its_source_line_test() ->
-    SourcePath = "test/fixtures/report.lfe",
+    SourcePath = "apps/alien_mutants/test/fixtures/report.lfe",
     {ok, Forms} = alien_mutants_reader:read_file(SourcePath),
     [Mutant] = alien_mutants_operators:arithmetic(Forms),
     Killed = alien_mutants_runner:run(Forms, [Mutant], value_check()),
@@ -23,7 +23,7 @@ report_lists_surviving_mutant_at_its_source_line_test() ->
     ?assertEqual(['+', a, b], maps:get(original, Survivor)),
     ?assertEqual(['-', a, b], maps:get(mutated, Survivor)),
     ?assertMatch({_, _}, binary:match(iolist_to_binary(Rendering),
-                                      <<"test/fixtures/report.lfe:3">>)),
+                                      <<"apps/alien_mutants/test/fixtures/report.lfe:3">>)),
     RenderedLines = [Line || Line <- string:split(iolist_to_binary(Rendering),
                                                    <<"\n">>, all),
                              Line =/= <<>>],
@@ -46,7 +46,7 @@ undefined_score_excludes_errored_mutants_test() ->
                                       <<"score=undefined">>)).
 
 killed_only_score_is_one_test() ->
-    SourcePath = "test/fixtures/report.lfe",
+    SourcePath = "apps/alien_mutants/test/fixtures/report.lfe",
     {ok, Forms} = alien_mutants_reader:read_file(SourcePath),
     [Mutant] = alien_mutants_operators:arithmetic(Forms),
 
@@ -56,7 +56,7 @@ killed_only_score_is_one_test() ->
     ?assertEqual(1.0, maps:get(score, Report)).
 
 errored_mutants_do_not_reduce_the_score_test() ->
-    SourcePath = "test/fixtures/report.lfe",
+    SourcePath = "apps/alien_mutants/test/fixtures/report.lfe",
     {ok, Forms} = alien_mutants_reader:read_file(SourcePath),
     [Mutant] = alien_mutants_operators:arithmetic(Forms),
 
@@ -70,7 +70,7 @@ errored_mutants_do_not_reduce_the_score_test() ->
     ?assertEqual(0.5, maps:get(score, Report)).
 
 quasiquote_before_mutant_does_not_shift_its_source_line_test() ->
-    SourcePath = "test/fixtures/report_with_quasiquote.lfe",
+    SourcePath = "apps/alien_mutants/test/fixtures/report_with_quasiquote.lfe",
     {ok, Forms} = alien_mutants_reader:read_file(SourcePath),
     [Mutant] = alien_mutants_operators:arithmetic(Forms),
 
@@ -81,7 +81,7 @@ quasiquote_before_mutant_does_not_shift_its_source_line_test() ->
     ?assertEqual(4, maps:get(line, Survivor)).
 
 aggregate_combines_module_reports_test() ->
-    SourcePath = "test/fixtures/report.lfe",
+    SourcePath = "apps/alien_mutants/test/fixtures/report.lfe",
     {ok, Forms} = alien_mutants_reader:read_file(SourcePath),
     [Mutant] = alien_mutants_operators:arithmetic(Forms),
     {KilledReport, _} = alien_mutants_report:report(SourcePath, Forms,

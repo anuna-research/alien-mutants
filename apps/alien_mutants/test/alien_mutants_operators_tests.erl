@@ -69,7 +69,7 @@ quoted_call_is_not_a_site_test() ->
     ?assertEqual([], alien_mutants_operators:arithmetic([[quote, ['+', a, b]]])).
 
 fixture() ->
-    {ok, Forms} = alien_mutants_reader:read_file("test/fixtures/operators.lfe"),
+    {ok, Forms} = alien_mutants_reader:read_file("apps/alien_mutants/test/fixtures/operators.lfe"),
     Forms.
 
 assert_one_mutant([{mutant, Site, MutatedForms}], Site, ExpectedForms) ->
