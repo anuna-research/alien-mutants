@@ -48,7 +48,7 @@ load(#mutant{module = Module, ast = Forms}) ->
             load_binary(Unique, Binary);
         {ok, [{ok, Other, _Binary, _ModWarnings}], _TopWarnings} ->
             {error, {module_name_mismatch, Unique, Other}};
-        {error, Errors, Warnings} ->
+        {error, Errors, _TopErrors, Warnings} ->
             {error, {compile_error, Errors, Warnings}}
     end.
 
