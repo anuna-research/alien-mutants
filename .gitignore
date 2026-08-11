@@ -3,3 +3,6 @@
 _build/
 *.beam
 target/
+.peers/*/identity/
+.peers/*/daemon/
+.peers/*/theories/
