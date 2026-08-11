@@ -1,0 +1,6 @@
+theory = "alien-mutants"
+channel = "@alien-mutants"
+repository_id = "alien-mutants"
+driver = "circus-driver-opencode"
+integration_ref = "main"
+verifier = ["rebar3", "eunit"]
