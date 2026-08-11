@@ -1,0 +1,13 @@
+{application, alien_mutants, [
+    {description, "Mutation testing for Lisp Flavoured Erlang"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        lfe
+    ]},
+    {env, []},
+    {licenses, ["Apache-2.0"]},
+    {links, []}
+]}.
