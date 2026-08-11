@@ -6,3 +6,5 @@ target/
 .peers/*/identity/
 .peers/*/daemon/
 .peers/*/theories/
+.troupe/
+.claude/
