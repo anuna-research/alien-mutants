@@ -96,11 +96,25 @@ selectable:
 
 | Operator | Example |
 |---|---|
-| [[Arithmetic Operator Replacement]] | `+` ↔ `-`, `*` ↔ `div` |
-| [[Comparison Operator Replacement]] | `==` ↔ `/=`, `<` ↔ `>=` |
+| [[Arithmetic Operator Replacement]] | `+` ↔ `-`, `*` ↔ `div`, `rem` → `*` |
+| [[Comparison Operator Replacement]] | `==` ↔ `/=`, `<` ↔ `>=`, `>` ↔ `=<` |
 | [[Boolean Operator Replacement]] | `and` ↔ `or` |
 | [[Constant Replacement]] | `0` → `1`, `[]` → non-empty sentinel, `true`/`false` swap |
 | [[Guard Negation]] | negate a `when` guard clause |
+
+`rem` has no natural inverse pairing the way `+`/`-` and `*`/`div` do, so it
+is a one-directional mutation into `*` (matching the reference set this
+operator table is benchmarked against — Stryker Mutator's [Arithmetic
+Operator](https://stryker-mutator.io/docs/mutation-testing-elements/supported-mutators/)
+category, Remainder-to-Multiplication). Two categories from that same
+reference set are deliberately absent because LFE has no corresponding
+syntax to mutate: **Update Operator** (`++`/`--`) and **Assignment
+Expression** compound-assignment mutations do not apply to a
+single-assignment language with no increment operators. A third — **Unary
+Operator** (`+a` ↔ `-a`) — needs no separate implementation: LFE's one-arg
+and two-arg `-` calls share the same call head, so Arithmetic Operator
+Replacement already flips unary negation as a side effect of the existing
+`+`/`-` swap.
 
 Each operator MUST generate one mutant per matching site (not one mutant for
 the whole module), so a module with three `+` sites yields three independent

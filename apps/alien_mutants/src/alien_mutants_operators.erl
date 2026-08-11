@@ -88,6 +88,10 @@ arithmetic_replacement(['+' | Tail], code) -> {ok, ['-' | Tail]};
 arithmetic_replacement(['-' | Tail], code) -> {ok, ['+' | Tail]};
 arithmetic_replacement(['*' | Tail], code) -> {ok, ['div' | Tail]};
 arithmetic_replacement(['div' | Tail], code) -> {ok, ['*' | Tail]};
+%% One-directional, matching Stryker's Remainder-to-Multiplication mutation:
+%% 'rem' has no natural inverse pairing (unlike +/-, */div), so this is not
+%% part of a swap pair the way the others are.
+arithmetic_replacement(['rem' | Tail], code) -> {ok, ['*' | Tail]};
 arithmetic_replacement(_Term, _Context) -> none.
 
 -spec comparison_replacement(term(), context()) -> replacement().
@@ -95,6 +99,8 @@ comparison_replacement(['==' | Tail], code) -> {ok, ['/=' | Tail]};
 comparison_replacement(['/=' | Tail], code) -> {ok, ['==' | Tail]};
 comparison_replacement(['<' | Tail], code) -> {ok, ['>=' | Tail]};
 comparison_replacement(['>=' | Tail], code) -> {ok, ['<' | Tail]};
+comparison_replacement(['>' | Tail], code) -> {ok, ['=<' | Tail]};
+comparison_replacement(['=<' | Tail], code) -> {ok, ['>' | Tail]};
 comparison_replacement(_Term, _Context) -> none.
 
 -spec boolean_replacement(term(), context()) -> replacement().

@@ -47,13 +47,23 @@ operator_mapping_variants_test() ->
     Variants = [{fun alien_mutants_operators:arithmetic/1, ['-', a, b], ['+', a, b]},
                 {fun alien_mutants_operators:arithmetic/1, ['*', a, b], ['div', a, b]},
                 {fun alien_mutants_operators:arithmetic/1, ['div', a, b], ['*', a, b]},
+                {fun alien_mutants_operators:arithmetic/1, ['rem', a, b], ['*', a, b]},
                 {fun alien_mutants_operators:comparison/1, ['/=', a, b], ['==', a, b]},
                 {fun alien_mutants_operators:comparison/1, ['<', a, b], ['>=', a, b]},
                 {fun alien_mutants_operators:comparison/1, ['>=', a, b], ['<', a, b]},
+                {fun alien_mutants_operators:comparison/1, ['>', a, b], ['=<', a, b]},
+                {fun alien_mutants_operators:comparison/1, ['=<', a, b], ['>', a, b]},
                 {fun alien_mutants_operators:boolean/1, ['or', a, b], ['and', a, b]},
                 {fun alien_mutants_operators:constant/1, true, false},
                 {fun alien_mutants_operators:constant/1, false, true}],
     lists:foreach(fun assert_variant/1, Variants).
+
+unary_minus_is_an_arithmetic_site_test() ->
+    %% LFE has no separate unary-operator syntax: `(- x)` (one arg) and
+    %% `(- a b)` (two args) share the same call head, so the existing
+    %% arithmetic swap already flips unary negation for free.
+    [{mutant, [1], MutatedForms}] = alien_mutants_operators:arithmetic([['-', x]]),
+    ?assertEqual([['+', x]], MutatedForms).
 
 per_site_isolation_test() ->
     Forms = [[defun, triple, [a, b], ['+', a, b], ['+', a, b], ['+', a, b]]],

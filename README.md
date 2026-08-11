@@ -54,8 +54,8 @@ evidence the *test suite* would catch a semantically-wrong mutation).
 
 | Operator | Example |
 |---|---|
-| Arithmetic Operator Replacement | `+` ↔ `-`, `*` ↔ `div` |
-| Comparison Operator Replacement | `==` ↔ `/=`, `<` ↔ `>=` |
+| Arithmetic Operator Replacement | `+` ↔ `-`, `*` ↔ `div`, `rem` → `*` |
+| Comparison Operator Replacement | `==` ↔ `/=`, `<` ↔ `>=`, `>` ↔ `=<` |
 | Boolean Operator Replacement | `and` ↔ `or` |
 | Constant Replacement | `0` → `1`, `[]` → non-empty sentinel, `true`/`false` swap |
 | Guard Negation | negate a `when` guard clause |
@@ -63,6 +63,14 @@ evidence the *test suite* would catch a semantically-wrong mutation).
 Each generates one independent mutant per matching call site — a module
 with three `+` sites yields three mutants, not one. Mutation inside quoted
 (`'`) or backquoted data is never treated as a site.
+
+Benchmarked against [Stryker Mutator's supported-mutators
+list](https://stryker-mutator.io/docs/mutation-testing-elements/supported-mutators/):
+`++`/`--` (Update Operator) and compound-assignment mutations (Assignment
+Expression) don't apply to a single-assignment language with no increment
+operators, and Unary Operator needs no separate implementation since LFE's
+one-arg and two-arg `-` share a call head, so Arithmetic Operator
+Replacement already covers unary negation.
 
 ## Architecture
 
