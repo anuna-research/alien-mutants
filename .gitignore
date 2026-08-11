@@ -1,0 +1,5 @@
+.zetl/search/
+.zetl/models/
+_build/
+*.beam
+target/
