@@ -2,7 +2,9 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
--define(FIXTURES, "test/fixtures").
+%% Paths are relative to the project root (where `rebar3 eunit` runs),
+%% so fixtures now live under the moved umbrella app.
+-define(FIXTURES, "apps/alien_mutants/test/fixtures").
 
 read_file_positive_test() ->
     Path = filename:join(?FIXTURES, "valid.lfe"),

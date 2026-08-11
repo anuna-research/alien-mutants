@@ -1,0 +1,17 @@
+{application, alien_mutants, [
+    {description, "Mutation testing for Lisp Flavoured Erlang — rebar3 plugin"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, [
+        %% Registers rebar3_mutate_prv as the provider module for this plugin.
+        %% rebar3 reads the `providers` key from the loaded alien_mutants app
+        %% (rebar_plugins:validate_plugin/1) and calls each module's init/1.
+        {providers, [rebar3_mutate_prv]}
+    ]},
+    {licenses, ["Apache-2.0"]},
+    {links, []}
+]}.
