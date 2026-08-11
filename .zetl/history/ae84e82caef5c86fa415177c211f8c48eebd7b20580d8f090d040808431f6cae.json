@@ -1,0 +1,1502 @@
+{
+  "version": 2,
+  "files": {
+    "PROTO-001-usdd-agent-protocol.md": {
+      "path": "PROTO-001-usdd-agent-protocol.md",
+      "page_name": "PROTO-001-usdd-agent-protocol",
+      "links": [],
+      "spl_blocks": [],
+      "diagnostics": [],
+      "mtime": 1786444125.4414196,
+      "merkle_leaves": [
+        {
+          "node_type": {
+            "type": "Frontmatter"
+          },
+          "start_line": 1,
+          "end_line": 4,
+          "hash": "8e478298a8e60dd0b02da3baa659d09a7a882bf3cc416cbec6f1ce4d8b863632",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 1
+          },
+          "start_line": 6,
+          "end_line": 6,
+          "hash": "47f1e7efa4e6e0aeedadc656fa6cf8d0e3a97b9aafd0c08328782f36d7fcc468",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 8,
+          "end_line": 11,
+          "hash": "16dc6bb744ca17814f6ee62b8f93275b68854e1c582ac56463432d965662037a",
+          "spl_hashes": null
+        }
+      ],
+      "file_merkle": {
+        "root_hash": "7c20d308a81f14daec19adb57685efae4e05e3dfb0555ac9b12ec3c85fd6d0d7",
+        "sections": [],
+        "spl_leaves": []
+      }
+    },
+    "Boolean Operator Replacement.md": {
+      "path": "Boolean Operator Replacement.md",
+      "page_name": "Boolean Operator Replacement",
+      "links": [
+        {
+          "target_page": "SPEC-001-lfe-mutation-testing",
+          "raw_target": "SPEC-001-lfe-mutation-testing#REQ-002",
+          "heading": "REQ-002",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 4,
+          "column": 18,
+          "predicates": [],
+          "annotation": null
+        }
+      ],
+      "spl_blocks": [],
+      "diagnostics": [],
+      "mtime": 1786444120.8564594,
+      "merkle_leaves": [
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 1
+          },
+          "start_line": 1,
+          "end_line": 1,
+          "hash": "43d4f13bb8a033f0fad6b6ce6a22a7a61ae0606b9c82b8b0798b6089dcc8f5a9",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 3,
+          "end_line": 4,
+          "hash": "3ca5689425373a462e7d5ef6a33cafcade19837864b589bc6233c78430ffb2d9",
+          "spl_hashes": null
+        }
+      ],
+      "file_merkle": {
+        "root_hash": "2ff6077dce12241929a040fe502f1bd3f075624c20e6c156ea5281316f2dae9e",
+        "sections": [],
+        "spl_leaves": []
+      }
+    },
+    "LFE.md": {
+      "path": "LFE.md",
+      "page_name": "LFE",
+      "links": [
+        {
+          "target_page": "SPEC-001-lfe-mutation-testing",
+          "raw_target": "SPEC-001-lfe-mutation-testing",
+          "heading": null,
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 6,
+          "column": 15,
+          "predicates": [],
+          "annotation": null
+        }
+      ],
+      "spl_blocks": [],
+      "diagnostics": [],
+      "mtime": 1786444113.104595,
+      "merkle_leaves": [
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 1
+          },
+          "start_line": 1,
+          "end_line": 1,
+          "hash": "5c74033e95da61e57f05a0ed1e0c3567046944ee143a069a5a32bc30cc73c39d",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 3,
+          "end_line": 7,
+          "hash": "8fa28865420cde861964a57bdf9210b61172ac0a599c84aeb6de9c416d7b64fb",
+          "spl_hashes": null
+        }
+      ],
+      "file_merkle": {
+        "root_hash": "2e7af39eb42d134562cb5aa291412fa1f41e9743ba3da6b269c96b06788124a2",
+        "sections": [],
+        "spl_leaves": []
+      }
+    },
+    "EUnit.md": {
+      "path": "EUnit.md",
+      "page_name": "EUnit",
+      "links": [
+        {
+          "target_page": "SPEC-001-lfe-mutation-testing",
+          "raw_target": "SPEC-001-lfe-mutation-testing#REQ-004",
+          "heading": "REQ-004",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 5,
+          "column": 5,
+          "predicates": [],
+          "annotation": null
+        }
+      ],
+      "spl_blocks": [],
+      "diagnostics": [],
+      "mtime": 1786444116.94772,
+      "merkle_leaves": [
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 1
+          },
+          "start_line": 1,
+          "end_line": 1,
+          "hash": "7c813dd4b0a8211c3f6cafce6f58807d98dd091f09effa9eb72b238697c67f48",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 3,
+          "end_line": 5,
+          "hash": "c240d01b890f42d2649d56f8bcb4c9f7d22d99440b699945d731f08b62b31b16",
+          "spl_hashes": null
+        }
+      ],
+      "file_merkle": {
+        "root_hash": "9d818efdaa7604671a7bd724d17559f054d7ce852a9ddf49d49504c091edabe3",
+        "sections": [],
+        "spl_leaves": []
+      }
+    },
+    "specs/SPEC-001-lfe-mutation-testing.md": {
+      "path": "specs/SPEC-001-lfe-mutation-testing.md",
+      "page_name": "SPEC-001-lfe-mutation-testing",
+      "links": [
+        {
+          "target_page": "rebar3",
+          "raw_target": "rebar3",
+          "heading": null,
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 14,
+          "column": 22,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "LFE",
+          "raw_target": "LFE",
+          "heading": null,
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 15,
+          "column": 1,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "LFE Reader",
+          "raw_target": "LFE Reader",
+          "heading": null,
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 20,
+          "column": 66,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "Arithmetic Operator Replacement",
+          "raw_target": "Arithmetic Operator Replacement",
+          "heading": null,
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 22,
+          "column": 16,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#REQ-002",
+          "heading": "REQ-002",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 23,
+          "column": 2,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "EUnit",
+          "raw_target": "EUnit",
+          "heading": null,
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 24,
+          "column": 32,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#REQ-004",
+          "heading": "REQ-004",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 25,
+          "column": 10,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#REQ-005",
+          "heading": "REQ-005",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 28,
+          "column": 34,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#REQ-001",
+          "heading": "REQ-001",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 39,
+          "column": 64,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#TEST-001",
+          "heading": "TEST-001",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 42,
+          "column": 38,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#TEST-005",
+          "heading": "TEST-005",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 42,
+          "column": 60,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#CON-001",
+          "heading": "CON-001",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 45,
+          "column": 17,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "PROTO-001-usdd-agent-protocol",
+          "raw_target": "PROTO-001-usdd-agent-protocol#Pick the tier before you start",
+          "heading": "Pick the tier before you start",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 64,
+          "column": 40,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#CON-001",
+          "heading": "CON-001",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 69,
+          "column": 20,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#REQ-001",
+          "heading": "REQ-001",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 72,
+          "column": 17,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#REQ-005",
+          "heading": "REQ-005",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 72,
+          "column": 32,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#REQ-002",
+          "heading": "REQ-002",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 85,
+          "column": 1,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "Arithmetic Operator Replacement",
+          "raw_target": "Arithmetic Operator Replacement",
+          "heading": null,
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 99,
+          "column": 3,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "Comparison Operator Replacement",
+          "raw_target": "Comparison Operator Replacement",
+          "heading": null,
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 100,
+          "column": 3,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "Boolean Operator Replacement",
+          "raw_target": "Boolean Operator Replacement",
+          "heading": null,
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 101,
+          "column": 3,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "Constant Replacement",
+          "raw_target": "Constant Replacement",
+          "heading": null,
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 102,
+          "column": 3,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "Guard Negation",
+          "raw_target": "Guard Negation",
+          "heading": null,
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 103,
+          "column": 3,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#Named failure mode",
+          "heading": "Named failure mode",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 109,
+          "column": 12,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#REQ-004",
+          "heading": "REQ-004",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 123,
+          "column": 41,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#Named failure mode",
+          "heading": "Named failure mode",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 139,
+          "column": 12,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#REQ-002",
+          "heading": "REQ-002",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 142,
+          "column": 34,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#REQ-004",
+          "heading": "REQ-004",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 151,
+          "column": 17,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#Named failure mode",
+          "heading": "Named failure mode",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 154,
+          "column": 12,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#REQ-004",
+          "heading": "REQ-004",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 158,
+          "column": 43,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#Open: parallel execution",
+          "heading": "Open: parallel execution",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 167,
+          "column": 37,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#REQ-001",
+          "heading": "REQ-001",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 185,
+          "column": 12,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#TEST-001",
+          "heading": "TEST-001",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 191,
+          "column": 3,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#TEST-001",
+          "heading": "TEST-001",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 193,
+          "column": 3,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#TEST-002",
+          "heading": "TEST-002",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 195,
+          "column": 3,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#TEST-003",
+          "heading": "TEST-003",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 197,
+          "column": 3,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#TEST-004",
+          "heading": "TEST-004",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 199,
+          "column": 3,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#TEST-004",
+          "heading": "TEST-004",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 201,
+          "column": 3,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#TEST-005",
+          "heading": "TEST-005",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 203,
+          "column": 3,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#REQ-004",
+          "heading": "REQ-004",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 204,
+          "column": 31,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#Open: parallel execution",
+          "heading": "Open: parallel execution",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 207,
+          "column": 32,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#NFR-001",
+          "heading": "NFR-001",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 211,
+          "column": 3,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#Scope and tier",
+          "heading": "Scope and tier",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 236,
+          "column": 1,
+          "predicates": [],
+          "annotation": null
+        },
+        {
+          "target_page": "",
+          "raw_target": "#TEST-004",
+          "heading": "TEST-004",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 239,
+          "column": 1,
+          "predicates": [],
+          "annotation": null
+        }
+      ],
+      "spl_blocks": [],
+      "diagnostics": [],
+      "mtime": 1786444100.4234643,
+      "merkle_leaves": [
+        {
+          "node_type": {
+            "type": "Frontmatter"
+          },
+          "start_line": 1,
+          "end_line": 8,
+          "hash": "6fe49cb711126846d34d174ccde7e07da4c157ba315fad7f6235d1501004f623",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 1
+          },
+          "start_line": 10,
+          "end_line": 10,
+          "hash": "b0033733f37e9b879c33acdb70bb4f4a6e8e9cbd01be773a4142c45b6dfbd49e",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 2
+          },
+          "start_line": 12,
+          "end_line": 12,
+          "hash": "8f756149881b0d33818ce760e8d1ff88d830d7405640543dfcdf104afc273229",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 14,
+          "end_line": 17,
+          "hash": "d05702030a9cc47ff3ffd730e2cac26ecb192a431da88918f8a784ca201829ba",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 19,
+          "end_line": 31,
+          "hash": "6a1ca0f80c828e35eb911f1a2feccfbfc6362259cd4105ef5804be395eeb3ca5",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 33,
+          "end_line": 40,
+          "hash": "3fb6e59338c30613f754912b372e0b931f0de8270018adf147e000d81684a7d0",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 42,
+          "end_line": 47,
+          "hash": "41682738839764a5bca4189128a783d53ca34d43b221548bdbb3d2371ff844e0",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 2
+          },
+          "start_line": 49,
+          "end_line": 49,
+          "hash": "0af8e5e604c9bfa673a01a3ab55099309c7bc7199230420a740c720242bb2513",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 51,
+          "end_line": 60,
+          "hash": "87e19b8fa791bab04c5726ff44cb70e2d7823f442ab39c5823cd6c29ec9767bc",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 2
+          },
+          "start_line": 62,
+          "end_line": 62,
+          "hash": "9c2f17ead423f70a5f32768277d96ae700bf4f9c963d3710b8f805bced8e701c",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 64,
+          "end_line": 72,
+          "hash": "f4cb3677b33ccf084f60b4634859cafd5817a7631fd6f263a8d8c0aa6955dcf1",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 2
+          },
+          "start_line": 74,
+          "end_line": 74,
+          "hash": "37a46e57bc22f375665d5dc9eb13ebd23b12e96d487f1185b767a946eb01a627",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 3
+          },
+          "start_line": 76,
+          "end_line": 76,
+          "hash": "11c3beb51ce48413286e65d1d7bf323ca686db0cf7190e4541f467f15466d44a",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 78,
+          "end_line": 80,
+          "hash": "e3f69a758b1b3a763520677ff3e114c92ee392856c9f40ad6ae576c10af3054a",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 82,
+          "end_line": 86,
+          "hash": "1aab3c416b982a537b83bfe3db1b68f27331baaa51207a1c3eb8ff8045cdf36f",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 88,
+          "end_line": 90,
+          "hash": "d2dcb1127b993bcfade9c3e177f7158049d0d55900e487a571c72cc2de7848d4",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 3
+          },
+          "start_line": 92,
+          "end_line": 92,
+          "hash": "6658c5fca59f1e4335ba7215af475957db43443824c939d5ef805fee87fa02a3",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 94,
+          "end_line": 95,
+          "hash": "41176df3e1cd174c4a577c39b6fc2803f7886d29500183c8585a958fd10684a9",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Table"
+          },
+          "start_line": 97,
+          "end_line": 103,
+          "hash": "b7dc4fa65189409f2a9ca8580d8d2f1039513c714952e1aa036a64cf151a2cbe",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 105,
+          "end_line": 107,
+          "hash": "3219a2826908a39757c7332ea65c0c7cde85446750b4865a3809c5f14d47c891",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 109,
+          "end_line": 110,
+          "hash": "2f9156be62e564546838032b9e9008ee37857ca22262e23f5ad42e7872e0bc25",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 112,
+          "end_line": 114,
+          "hash": "0ca69bab718e5a841d1ed53edc4d9bc520a0825b4425fed382cae089c6801038",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 3
+          },
+          "start_line": 116,
+          "end_line": 116,
+          "hash": "695e9ad4242b86746d384256906feaf831c6ec40308f28db613fbb21dc4b84db",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 118,
+          "end_line": 121,
+          "hash": "98209cfec67bd437d8df686557b0cfdbfaa45e7f1d4595af6931f73db08c434e",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 123,
+          "end_line": 125,
+          "hash": "f363535df8834f2b49df44b85b2282ae82af626c24de5a6fe90731124c310e02",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 127,
+          "end_line": 128,
+          "hash": "e6ef5c534a431053fca91152741f05ad8d15961f080f0f03546fe4599ec8aab1",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 3
+          },
+          "start_line": 130,
+          "end_line": 130,
+          "hash": "8a05915a361642fc374f5da9d718066d6eae80d734e53ccb57dacbdaaca11193",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 132,
+          "end_line": 137,
+          "hash": "5ea7e4ad1c2f8b3af1c371234ed8620ef7c2bfb65e088b43bc1503f86b564410",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 139,
+          "end_line": 140,
+          "hash": "f0f84e18c4a320b06157e776461d17d49a6067ee0dd1bcf5593be4f2f72bc5e6",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 142,
+          "end_line": 144,
+          "hash": "7287f56f1fc2ce7ea5d707658a3fbfeb0c0619a9881bfaa6029efc6248388b67",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 3
+          },
+          "start_line": 146,
+          "end_line": 146,
+          "hash": "8c0dda58d695836fb60a81b4b6aa270b6d1b0b4b5c3d3c365af4c6f98ff2c0da",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 148,
+          "end_line": 152,
+          "hash": "116644c072c6fa80647b7a90788211a931ed7b9bb1511a9f21a771bd7f908932",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 154,
+          "end_line": 156,
+          "hash": "ff8dd5234ba0e1f4c89d42722e61a71fe17a3a7ef7725fa9d57cf30b012d140b",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 158,
+          "end_line": 159,
+          "hash": "1f51c50a99d499664e2c5c24700f0056fc52f980f9dd67d4304de4dd33e9303e",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 2
+          },
+          "start_line": 161,
+          "end_line": 161,
+          "hash": "855fef22c68f62dfcc59d15f7a6d5594bb1eb66ee8e8d6dbc68b394c5f6bf8ff",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 3
+          },
+          "start_line": 163,
+          "end_line": 163,
+          "hash": "0f43d54533b2cac0e8d8e3957d1060ff9f54de15b64e4f615ba9726d0440d823",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 165,
+          "end_line": 168,
+          "hash": "17ab9cea6c59566cd8c100893fd99718bf06eb95a463c8227ab96bee6cb7c3df",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 170,
+          "end_line": 172,
+          "hash": "e924225d1e9c908921427ae4b866b44333f5bbf8185e5b437d503c8e92b128a9",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 2
+          },
+          "start_line": 174,
+          "end_line": 174,
+          "hash": "73e85090a5f35b58986e50c58274ede1c78e1026a37250992b9ab82545a63cf7",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 3
+          },
+          "start_line": 176,
+          "end_line": 176,
+          "hash": "90b7c77866349dc58fa37cae64381a11284f3f5d0595e37090dfcfc64cef7cea",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 178,
+          "end_line": 183,
+          "hash": "0323e69ebfd345543e400f4aee77d8f9a8185b00b75964116adb6237a8b1dbcf",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 185,
+          "end_line": 185,
+          "hash": "8edb4b621405698d8bcbb4f1565d919ced78ff48c29a17965aaf56facce70b32",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 2
+          },
+          "start_line": 187,
+          "end_line": 187,
+          "hash": "a90fc44b3a5bae1bbe11cdc969382c0d9ccf72f49b1721aec3d00fd80191320a",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 189,
+          "end_line": 189,
+          "hash": "adcbe26c1a07e26db671a64e3fa69bbcaf38e30b819bd475dd785469a54ef7cf",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "List",
+            "ordered": false
+          },
+          "start_line": 191,
+          "end_line": 205,
+          "hash": "c703cd71bc9a2907bd48448262cfe031f79e6dc92f05d6c3183728fe650c35c9",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 206,
+          "end_line": 207,
+          "hash": "b12f43613a7b9cbc1a344c7a86c6ebdf7eba5d3395af563f2e9bfb35da63e497",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "List",
+            "ordered": false
+          },
+          "start_line": 209,
+          "end_line": 212,
+          "hash": "0dc7ae7e6dc62488ac8b68a013c327eff408a5270073e4f5eae4438ea729addf",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 2
+          },
+          "start_line": 213,
+          "end_line": 213,
+          "hash": "4d8d6207c5f3018d6f6a018e246782c975f471c88bf75bc622f4cb31cfdd8dcc",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 215,
+          "end_line": 221,
+          "hash": "9eb976c1bd724b3627745264e0f9319eac960bb38697a30059836a98a22fbee7",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 2
+          },
+          "start_line": 223,
+          "end_line": 223,
+          "hash": "749ba84c3c22d2b4e7b1b22915e9823c88493d9a67ae996f663554cf67256553",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "List",
+            "ordered": false
+          },
+          "start_line": 225,
+          "end_line": 232,
+          "hash": "47433b4e43eba4f306d27549b32687de5611cf7b82e16eb1d7d638c1c8f5cfbc",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 2
+          },
+          "start_line": 233,
+          "end_line": 233,
+          "hash": "cf0ed6e114627fda6eda1cbe9e68a3b3aaf874e8c8756704104c2678eae53ce8",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 235,
+          "end_line": 241,
+          "hash": "30f163c3693c9cb16472a8038b728777c8543bfe24bd0a91c4160e8b110b7ac7",
+          "spl_hashes": null
+        }
+      ],
+      "file_merkle": {
+        "root_hash": "3cfaf8efac893fc79e3f86c8a29ae492a4b48998b655d3f526ae175c81007c38",
+        "sections": [],
+        "spl_leaves": []
+      }
+    },
+    "Arithmetic Operator Replacement.md": {
+      "path": "Arithmetic Operator Replacement.md",
+      "page_name": "Arithmetic Operator Replacement",
+      "links": [
+        {
+          "target_page": "SPEC-001-lfe-mutation-testing",
+          "raw_target": "SPEC-001-lfe-mutation-testing#REQ-002",
+          "heading": "REQ-002",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 5,
+          "column": 18,
+          "predicates": [],
+          "annotation": null
+        }
+      ],
+      "spl_blocks": [],
+      "diagnostics": [],
+      "mtime": 1786444118.6052158,
+      "merkle_leaves": [
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 1
+          },
+          "start_line": 1,
+          "end_line": 1,
+          "hash": "648d3eaf8e29a604e76eae83d9161a6fd816cb915ec879541e0463fbafd3eea7",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 3,
+          "end_line": 5,
+          "hash": "0951b9d2a4aaf1b8618e406b7bf6424e9e505e37d1ea98f3ecc8edcbb33c6d8d",
+          "spl_hashes": null
+        }
+      ],
+      "file_merkle": {
+        "root_hash": "1aee74d514a4551f8d59d40df2903c527174e653c1fabad6501433f73967d315",
+        "sections": [],
+        "spl_leaves": []
+      }
+    },
+    "Comparison Operator Replacement.md": {
+      "path": "Comparison Operator Replacement.md",
+      "page_name": "Comparison Operator Replacement",
+      "links": [
+        {
+          "target_page": "SPEC-001-lfe-mutation-testing",
+          "raw_target": "SPEC-001-lfe-mutation-testing#REQ-002",
+          "heading": "REQ-002",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 5,
+          "column": 4,
+          "predicates": [],
+          "annotation": null
+        }
+      ],
+      "spl_blocks": [],
+      "diagnostics": [],
+      "mtime": 1786444119.6994975,
+      "merkle_leaves": [
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 1
+          },
+          "start_line": 1,
+          "end_line": 1,
+          "hash": "31cc329d3cf5a6b49f766d1654b94e6573cd09fe2a8c43f27845372f69f6077a",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 3,
+          "end_line": 5,
+          "hash": "5a7f085bec32ec3541214b11b3142349d72743e46bbbf1b3fa5d84642f01a7e4",
+          "spl_hashes": null
+        }
+      ],
+      "file_merkle": {
+        "root_hash": "a8559fc6935ad361864ba1ddb5f3b3042e1e29c4b30e9ecec673d2ee085f2cbe",
+        "sections": [],
+        "spl_leaves": []
+      }
+    },
+    "Constant Replacement.md": {
+      "path": "Constant Replacement.md",
+      "page_name": "Constant Replacement",
+      "links": [
+        {
+          "target_page": "SPEC-001-lfe-mutation-testing",
+          "raw_target": "SPEC-001-lfe-mutation-testing#REQ-002",
+          "heading": "REQ-002",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 5,
+          "column": 1,
+          "predicates": [],
+          "annotation": null
+        }
+      ],
+      "spl_blocks": [],
+      "diagnostics": [],
+      "mtime": 1786444121.8818557,
+      "merkle_leaves": [
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 1
+          },
+          "start_line": 1,
+          "end_line": 1,
+          "hash": "34a804c6e4be695154b03d828fecc9360a33a7bf096dedc283f26295fa796176",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 3,
+          "end_line": 5,
+          "hash": "31cb34c9d856779a2d382dce49049a3f085a625d2f48c55346bb7f12f3798849",
+          "spl_hashes": null
+        }
+      ],
+      "file_merkle": {
+        "root_hash": "3ebbc5bd794abf0571d45748c13be01eb11608cdfa4f7a68328ac010860dbe00",
+        "sections": [],
+        "spl_leaves": []
+      }
+    },
+    "Guard Negation.md": {
+      "path": "Guard Negation.md",
+      "page_name": "Guard Negation",
+      "links": [
+        {
+          "target_page": "SPEC-001-lfe-mutation-testing",
+          "raw_target": "SPEC-001-lfe-mutation-testing#REQ-002",
+          "heading": "REQ-002",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 5,
+          "column": 1,
+          "predicates": [],
+          "annotation": null
+        }
+      ],
+      "spl_blocks": [],
+      "diagnostics": [],
+      "mtime": 1786444122.9716551,
+      "merkle_leaves": [
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 1
+          },
+          "start_line": 1,
+          "end_line": 1,
+          "hash": "da2736e33bfcdd58714d2569aa280848c58374acf3b8474f5c0f0a2cf57e14bd",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 3,
+          "end_line": 5,
+          "hash": "4728e1994af7267367bd1c206d1f91ee73105fb05ccd4fb06f487086113176d3",
+          "spl_hashes": null
+        }
+      ],
+      "file_merkle": {
+        "root_hash": "74e227c435dd84467b00297b0ef340df8fc1b18a46035e6603a3f5b80a9a8d38",
+        "sections": [],
+        "spl_leaves": []
+      }
+    },
+    "rebar3.md": {
+      "path": "rebar3.md",
+      "page_name": "rebar3",
+      "links": [
+        {
+          "target_page": "SPEC-001-lfe-mutation-testing",
+          "raw_target": "SPEC-001-lfe-mutation-testing#Enable path",
+          "heading": "Enable path",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 4,
+          "column": 23,
+          "predicates": [],
+          "annotation": null
+        }
+      ],
+      "spl_blocks": [],
+      "diagnostics": [],
+      "mtime": 1786444115.9029684,
+      "merkle_leaves": [
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 1
+          },
+          "start_line": 1,
+          "end_line": 1,
+          "hash": "0411ea67b684e03c0d0367411965aa5edf58ae91f0b257babceaeb0a175e1c0d",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 3,
+          "end_line": 4,
+          "hash": "98568c9f1a596838b8fbac313e8ac921bacac62f2bf1006fe4ac6a8c702c00bd",
+          "spl_hashes": null
+        }
+      ],
+      "file_merkle": {
+        "root_hash": "e55f8c0c91466b287e658ed6d63dbaef353a84dd7e7d879dce65991773f8a191",
+        "sections": [],
+        "spl_leaves": []
+      }
+    },
+    "LFE Reader.md": {
+      "path": "LFE Reader.md",
+      "page_name": "LFE Reader",
+      "links": [
+        {
+          "target_page": "SPEC-001-lfe-mutation-testing",
+          "raw_target": "SPEC-001-lfe-mutation-testing#CON-001",
+          "heading": "CON-001",
+          "block_ref": null,
+          "alias": null,
+          "is_embed": false,
+          "line": 4,
+          "column": 60,
+          "predicates": [],
+          "annotation": null
+        }
+      ],
+      "spl_blocks": [],
+      "diagnostics": [],
+      "mtime": 1786444114.9426372,
+      "merkle_leaves": [
+        {
+          "node_type": {
+            "type": "Heading",
+            "level": 1
+          },
+          "start_line": 1,
+          "end_line": 1,
+          "hash": "5fa569fbe2dfc8e13e322baaed4064028b5922ec8ef3b65046cd63ebebfcdea0",
+          "spl_hashes": null
+        },
+        {
+          "node_type": {
+            "type": "Paragraph"
+          },
+          "start_line": 3,
+          "end_line": 6,
+          "hash": "567836f4d1b380c7c6849b167e0ea79a1fa93466bec0d6c5c500d105b1daa320",
+          "spl_hashes": null
+        }
+      ],
+      "file_merkle": {
+        "root_hash": "25a0b8da57019770780977a239827fd360da011c2bf86ba471f87a67c4017e77",
+        "sections": [],
+        "spl_leaves": []
+      }
+    }
+  },
+  "vault_root_hash": "ae84e82caef5c86fa415177c211f8c48eebd7b20580d8f090d040808431f6cae"
+}
