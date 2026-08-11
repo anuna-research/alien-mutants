@@ -1,5 +1,8 @@
 .zetl/search/
 .zetl/models/
+.zetl/jj/
+.zetl/history/
+.zetl/index.json
 _build/
 *.beam
 target/

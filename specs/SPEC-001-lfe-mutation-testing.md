@@ -1,7 +1,7 @@
 ---
 id: SPEC-001
 title: alien-mutants — Mutation Testing for Lisp Flavoured Erlang
-status: draft
+status: implemented
 tier: 3
 author: anuna-02 + claude
 last-updated: 2026-08-11
